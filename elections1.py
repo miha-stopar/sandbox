@@ -1,7 +1,12 @@
 from collections import defaultdict
-from socialweb.tweets import *
+from socialweb.tweets import Tweets
 
-# this script collects Twitter followers for three presidential candidates; check the interesections of the followers; checks the latest 10 tweets for the followers (only for those who follow only one candidate); stores the hashtags; calculates the hashtags that appear in tweets of more than one follower of a particular candidate
+# this script collects Twitter followers for three presidential candidates; 
+# checks the interesections of the followers; 
+# checks the latest 10 tweets for the followers (only for those who follow only one candidate); 
+# stores the hashtags; 
+# calculates the hashtags that appear in tweets of more than one follower of a particular candidate
+#
 # where is socialweb package? yeah, I know - it is crazy, it is on Bitbucket (https://bitbucket.org/miha_stopar/mosaic-demo/src), perhaps it will be an independent library one day, but right now it is a part of the mOSAIC key value connectors demo
 
 tweets = Tweets()
